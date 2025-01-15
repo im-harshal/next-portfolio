@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+This is a responsive and modern portfolio website built using **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Web3Forms**. The website showcases about, projects, and contact information components, providing an excellent platform to highlight professional achievements.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Fully responsive and optimized for all screen sizes, ensuring a great user experience on any device.
+- **Dynamic Animations**: Leveraging Framer Motion for smooth and visually appealing transitions.
+- **Fast Performance**: Built with Next.js, ensuring fast load times and optimized performance.
+- **Contact Form**: Integrated with Web3Forms for seamless and secure form submissions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: React-based framework for building fast and scalable web applications.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **Framer Motion**: Library for animations and transitions in React.
+- **Web3Forms**: Simple and secure contact form submission API.
+- **GitHub**: For version control and hosting the source code.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Dependencies
 
-## Learn More
+Key dependencies used in this project:
 
-To learn more about Next.js, take a look at the following resources:
+- `next`: React framework for server-side rendering and static site generation.
+- `tailwindcss`: CSS framework for utility-first styling.
+- `framer-motion`: Library for animations and gestures in React.
+- `web3forms`: API for secure and simple contact form handling.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Framer Motion Documentation](https://www.framer.com/motion/)
+- [Web3Forms Documentation](https://web3forms.com/docs)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding! 🚀
