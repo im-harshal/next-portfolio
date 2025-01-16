@@ -31,7 +31,7 @@ export default function About({ isDarkMode }) {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-14"
+        className="flex w-full flex-col lg:flex-row items-center gap-20 my-16"
       >
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
