@@ -31,7 +31,7 @@ export default function About({ isDarkMode }) {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20"
+        className="flex w-full flex-col lg:flex-row items-center gap-20 my-14"
       >
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -51,13 +51,17 @@ export default function About({ isDarkMode }) {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl">
+          <p className="mb-7 max-w-2xl">
             Fueled by passion and a Master's from UT Dallas, I'm a software
             engineer who thrives on building impactful solutions. From India to
-            Texas, I've tackled real-world challenges at BillDesk, crafting
-            APIs, mastering microservices, and even exploring ML. What drives
-            me? Seeing my code improve lives, be it optimizing applications or
-            empowering users.
+            Texas, I've had the privilege of tackling real-world challenges at
+            BillDesk, where I crafted APIs, mastered microservices, and
+            optimized applications for thousands of users.My journey spans both
+            backend and frontend development—whether it's enhancing system-level
+            functionalities with Java Spring or building intuitive, responsive
+            user interfaces with Next.js and Tailwind. What drives me? Seeing my
+            code improve lives, whether it's streamlining processes, securing
+            data, or creating seamless user experiences.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}

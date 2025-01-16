@@ -1,4 +1,4 @@
-import { assets, workData } from "@/assets/assets";
+import { assets, projectData } from "@/assets/assets";
 import Image from "next/image";
 import { motion } from "motion/react";
 
@@ -42,7 +42,7 @@ export default function Projects({ isDarkMode }) {
         transition={{ delay: 0.9, duration: 0.6 }}
         className="grid grid-cols-auto my-10 gap-5 dark:text-black"
       >
-        {workData.map((project, index) => (
+        {projectData.map((project, index) => (
           <motion.div
             onClick={() => {
               if (project.url) {

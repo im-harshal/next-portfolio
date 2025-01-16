@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a responsive and modern portfolio website built using **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Web3Forms**. The website showcases about, projects, and contact information components, providing an excellent platform to highlight professional achievements.
+This is a responsive and modern portfolio website built using **Next.js**, **Tailwind CSS**, **Framer Motion**, and **Web3Forms**. The website showcases about, projects, and contact components, providing an excellent platform to highlight my professional achievements.
 
 ## Features
 

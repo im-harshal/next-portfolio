@@ -82,29 +82,29 @@ export const assets = {
   docker,
 };
 
-export const workData = [
+export const projectData = [
   {
     title: "Portfolio website",
     description: "Next.js | Tailwind | Motion",
-    bgImage: "/work-1.png",
+    bgImage: "/project-1.png",
     url: "",
   },
   {
     title: "Portfolio website",
     description: "React.js",
-    bgImage: "/work-2.png",
+    bgImage: "/project-2.png",
     url: "https://im-harshal.github.io/react-portfolio/",
   },
   {
     title: "Travel website",
     description: "PHP | HTML/CSS | Javascript",
-    bgImage: "/work-3.png",
-    url: "https://github.com/im-harshal/contact-list-app",
+    bgImage: "/project-3.jpeg",
+    url: "https://github.com/im-harshal/travel-app",
   },
   {
     title: "Word Game",
     description: "Python | NLTK",
-    bgImage: "/work-4.png",
+    bgImage: "/project-4.jpeg",
     url: "https://github.com/im-harshal/word-guess-game",
   },
 ];
