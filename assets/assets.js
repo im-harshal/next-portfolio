@@ -38,6 +38,13 @@ import tailwind from "./tailwind-css.png";
 import spring from "./spring.png";
 import vercel from "./vercel.png";
 import docker from "./docker.png";
+import aws from "./aws.png";
+import firebase from "./firebase.png";
+import python from "./python.png";
+import java from "./java.png";
+import javascript from "./javascript.png";
+import oracle from "./oracle.png";
+import sql from "./sql.png";
 
 export const assets = {
   user_image,
@@ -80,6 +87,13 @@ export const assets = {
   spring,
   vercel,
   docker,
+  aws,
+  firebase,
+  python,
+  java,
+  javascript,
+  oracle,
+  sql,
 };
 
 export const projectData = [
@@ -87,25 +101,19 @@ export const projectData = [
     title: "Portfolio website",
     description: "Next.js | Tailwind | Motion",
     bgImage: "/project-1.png",
-    url: "",
+    url: "https://imharshal.vercel.app/",
   },
   {
-    title: "Portfolio website",
-    description: "React.js",
+    title: "nublog",
+    description: "AWS - IAM, S3, CM, CloudFront | Hugo",
     bgImage: "/project-2.png",
-    url: "https://im-harshal.github.io/react-portfolio/",
+    url: "https://nublog.cloud",
   },
   {
-    title: "Travel website",
-    description: "PHP | HTML/CSS | Javascript",
-    bgImage: "/project-3.jpeg",
-    url: "https://github.com/im-harshal/travel-app",
-  },
-  {
-    title: "Word Game",
-    description: "Python | NLTK",
-    bgImage: "/project-4.jpeg",
-    url: "https://github.com/im-harshal/word-guess-game",
+    title: "Open Bowls",
+    description: "Flutter | Firebase | Gemini API",
+    bgImage: "/project-3.png",
+    url: "https://youtu.be/pn9TOrHnEUU?si=7iy-m5U-qqypocRp",
   },
 ];
 
@@ -131,11 +139,18 @@ export const infoList = [
 ];
 
 export const toolsData = [
+  assets.java,
+  assets.spring,
+  assets.python,
+  assets.javascript,
   assets.nextjs,
   assets.reactjs,
   assets.tailwind,
-  assets.spring,
+  assets.sql,
+  assets.oracle,
   assets.git,
   assets.vscode,
   assets.docker,
+  assets.aws,
+  assets.firebase,
 ];
