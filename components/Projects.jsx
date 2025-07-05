@@ -33,14 +33,14 @@ export default function Projects({ isDarkMode }) {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12"
       >
-        Welcome to my portfolio! Explore a collection of projects showcasing my
-        expertise in software development.
+        Explore a collection of projects showcasing my skills in software
+        development.
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-auto my-10 gap-5 dark:text-black"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-10 gap-5 dark:text-black"
       >
         {projectData.map((project, index) => (
           <motion.div

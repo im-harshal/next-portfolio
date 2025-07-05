@@ -98,10 +98,10 @@ export const assets = {
 
 export const projectData = [
   {
-    title: "Portfolio website",
-    description: "Next.js | Tailwind | Motion",
+    title: "Image Processing Pipeline",
+    description: "AWS - Lambda, S3, DynamoDB, Rekognition",
     bgImage: "/project-1.png",
-    url: "https://imharshal.vercel.app/",
+    url: "https://nublog.cloud/posts/my-second-post/",
   },
   {
     title: "nublog",
@@ -110,9 +110,15 @@ export const projectData = [
     url: "https://nublog.cloud",
   },
   {
+    title: "Portfolio website",
+    description: "Next.js | Tailwind | Motion",
+    bgImage: "/project-3.png",
+    url: "https://imharshal.vercel.app/",
+  },
+  {
     title: "Open Bowls",
     description: "Flutter | Firebase | Gemini API",
-    bgImage: "/project-3.png",
+    bgImage: "/project-4.png",
     url: "https://youtu.be/pn9TOrHnEUU?si=7iy-m5U-qqypocRp",
   },
 ];

@@ -52,16 +52,13 @@ export default function About({ isDarkMode }) {
           className="flex-1"
         >
           <p className="mb-7 max-w-2xl">
-            Fueled by passion and a Master's from UT Dallas, I'm a software
-            engineer who thrives on building impactful solutions. From India to
-            Texas, I've had the privilege of tackling real-world challenges at
-            BillDesk, where I crafted APIs, mastered microservices, and
-            optimized applications for thousands of users.My journey spans both
-            backend and frontend development—whether it's enhancing system-level
-            functionalities with Java Spring or building intuitive, responsive
-            user interfaces with Next.js and Tailwind. What drives me? Seeing my
-            code improve lives, whether it's streamlining processes, securing
-            data, or creating seamless user experiences.
+            Software engineer with 3.5+ years of experience building scalable
+            backend systems and user-friendly web apps. Skilled in Java Spring
+            Boot, REST APIs, React, Next.js, and AWS, with a background spanning
+            fintech solutions in India and graduate studies at UT Dallas.
+            Experienced in API optimization, microservices, and cloud projects.
+            I enjoy solving real-world problems, collaborating in agile teams,
+            and delivering clean, efficient code that makes an impact.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
@@ -101,7 +98,7 @@ export default function About({ isDarkMode }) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.5 }}
-            className="flex items-center gap-3 sm:gap-5"
+            className="grid grid-cols-7 grid-rows-2 gap-3 sm:gap-5"
           >
             {toolsData.map((tool, index) => (
               <motion.li
