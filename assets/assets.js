@@ -12,7 +12,7 @@ import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
-import profile_img from "./profile-img.jpg";
+import profile_img from "./profile-img-new.png";
 import download_icon from "./download-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
@@ -98,27 +98,33 @@ export const assets = {
 
 export const projectData = [
   {
+    title: "Treso - Expense REST API",
+    description: "Spring Boot | Postgres | Docker | EC2",
+    bgImage: "/project-1n.png",
+    url: "https://nublog.cloud/posts/my-third-post/",
+  },
+  {
     title: "Image Processing Pipeline",
     description: "AWS - Lambda, S3, DynamoDB, Rekognition",
-    bgImage: "/project-1.png",
+    bgImage: "/project-2n.png",
     url: "https://nublog.cloud/posts/my-second-post/",
   },
   {
     title: "nublog",
     description: "AWS - IAM, S3, CM, CloudFront | Hugo",
-    bgImage: "/project-2.png",
+    bgImage: "/project-3n.png",
     url: "https://nublog.cloud",
   },
   {
     title: "Portfolio website",
     description: "Next.js | Tailwind | Motion",
-    bgImage: "/project-3.png",
+    bgImage: "/project-4n.png",
     url: "https://imharshal.vercel.app/",
   },
   {
     title: "Open Bowls",
     description: "Flutter | Firebase | Gemini API",
-    bgImage: "/project-4.png",
+    bgImage: "/project-5n.png",
     url: "https://youtu.be/pn9TOrHnEUU?si=7iy-m5U-qqypocRp",
   },
 ];
