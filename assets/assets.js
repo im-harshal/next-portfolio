@@ -99,21 +99,21 @@ export const assets = {
 export const projectData = [
   {
     title: "Treso - Expense REST API",
-    description: "Spring Boot | Postgres | Docker | EC2",
+    description: "Spring Boot | Postgres | Kubernetes | EC2",
     bgImage: "/project-1n.png",
-    url: "https://nublog.cloud/posts/my-third-post/",
+    url: "https://nublog.pages.dev/posts/my-fourth-post/",
   },
   {
     title: "Image Processing Pipeline",
     description: "AWS - Lambda, S3, DynamoDB, Rekognition",
     bgImage: "/project-2n.png",
-    url: "https://nublog.cloud/posts/my-second-post/",
+    url: "https://nublog.pages.dev/posts/my-second-post/",
   },
   {
     title: "nublog",
     description: "AWS - IAM, S3, CM, CloudFront | Hugo",
     bgImage: "/project-3n.png",
-    url: "https://nublog.cloud",
+    url: "https://nublog.pages.dev/",
   },
   {
     title: "Portfolio website",
